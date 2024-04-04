@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            
+        <link rel="stylesheet" href="products.css">
+        <title>Products</title>
+        
+    </head>
+    <body>
+        <script src="products.js"></script>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="div5">
+                <div class="nav_bar1"><a href="index.html">OPTICS ZONE</a></div>
+                <ul class="nav-links">
+                    <li class="center"><a href="#" onclick="opentab('div2')">SUNGLASSES</a></li>
+                    <li class="center"><a href="#" onclick="opentab('div3')">EYEGLASSES</a></li>
+                    <li class="center"><a href="#" onclick="opentab('div4')">COMPUTER GLASSES</a></li>
+                    <li class="center"><a href="#" onclick="opentab('div6')">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main -->
+        <div class="main">
+
+            <!-- SUNGLASSES -->
+            <div class="func-1 tab-content active-tab" id="div2">
+                <div class="container">
+                    <h1>SUNGLASSES</h1> 
+                    <section>
+             
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/john-jacobs-jj-s12808-c2-sunglasses_g_8841.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title"><a>John Jacobs</a></h3>
+                                <p class="card-text" id="text">Gold Full Rim Aviator</p>
+                                <h5 class="mb-2" id="price"><b>₹ 4500</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/lenskart-studio-lk-s16324-c1-sunglasses_csvfile-1699600671789-img_4305.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title0"><a>Lenskart STUDIO</a></h3>
+                                <p class="card-text" id="text0">Gold Black Full Rim Rectangle/ Square</p>
+                                <h5 class="mb-2" id="price0"><b>₹ 5500</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart0()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/gold-brown-solid-full-rim-aviator-john-jacobs-dynachromic-jj-s12474-c13-sunglasses_csvfile-1649667489208-g_3745.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title16"><a>Fastrack</a></h3>
+                                <p class="card-text" id="text16">Gold Full Rim Aviator</p>
+                                <h5 class="mb-2" id="price16"><b>₹ 5000</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart16()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/grey-gunmetal-full-rim-hexagonal-john-jacobs-jj-tints-jj-s12472--c2-sunglasses_john-jacobs-jj-s12472-c2-sunglasses_sunglasses_g_1973_1_1_05_july23.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title15"><a>Rayban</a></h3>
+                                <p class="card-text" id="text15">Gunmetal Full Rim Hexagonal</p>
+                                <h5 class="mb-2" id="price15"><b>₹ 7500</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart15()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/green-gold-full-rim-geometric-vincent-chase-polarized-pilot-collection-vc-s15403-c1-sunglasses_g_0756_01_02_2023.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title1"><a>Vincent Chase Polarized</a></h3>
+                                <p class="card-text" id="text1">Brown Full Rim Round</p>
+                                <h5 class="mb-2" id="price1"><b>₹ 6000</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart1()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/john-jacobs-jj-s15907-c2-sunglasses_csvfile-1698750158813-210238_(2).jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title2"><a>John Jacobs</a></h3>
+                                <p class="card-text" id="text2">Maroon Full Rim Wayfarer</p>
+                                <h5 class="mb-2" id="price2"><b>₹ 6200</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart2()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+                </div>
+            </div>
+    
+            <!-- EYEGLASSES -->
+            <div class="func-1 tab-content" id="div3">
+                <div class="container">
+                    <h1>EYEGLASSES</h1> 
+                    <section>
+             
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/john-jacobs-jj-e10235-c7-eyeglasses_g_2375_image_pla.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title3"><a>John Jacobs</a></h3>
+                                <p class="card-text" id="text3">Transparent Full Rim Wayfarer</p>
+                                <h5 class="mb-2" id="price3"><b>₹ 6000</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart3()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/Transparent-Gold-Transparent-Full-Rim-Wayfarer-Lenskart-Air-Signia-LA-E11821-C3-Eyeglasses_lenskart-air-la-e11821-fall-rim-wfe-stais-stel-c1-eyeglasses_g_251407_02_2022.jpg"class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title4"><a>Lenskart Air</a></h3>
+                                <p class="card-text" id="text4">Transparent Full Rim Square</p>
+                                <h5 class="mb-2" id="price4"><b>₹ 3000</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart4()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/john-jacobs-jj-e13343-c2-eyeglasses_john-jacobs-jj-e13343-c2-eyeglasses_g_5787.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title5"><a>John Jacobs</a></h3>
+                                <p class="card-text" id="text5">Matte Black Full Rim Wayfarer</p>
+                                <h5 class="mb-2" id="price5"><b>₹ 5500</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart5()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/vincent-chase-vc-e13785-c2-eyeglasses_g_9157 (2).jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title6"><a>Vincent Chase</a></h3>
+                                <p class="card-text" id="text6">Gunmetal Black Full Rim Geometric</p>
+                                <h5 class="mb-2" id="price6"><b>₹ 4000</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart6()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/blue-full-rim-round-vincent-chase-sleek-steel-vc-e15962-c1-eyeglasses_g_3414_09_21_23.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title7"><a>Vincent Chase</a></h3>
+                                <p class="card-text" id="text7">Blue Full Rim Round</p>
+                                <h5 class="mb-2" id="price7"><b>₹ 4500</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart7()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/gold-black-tortoise-full-rim-rectangle-john-jacobs-supreme-steel-jj-e11540-c7-eyeglasses_g_2732_11_10_2022.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title8"><a>John Jacobs</a></h3>
+                                <p class="card-text" id="text8">Gold Black Full Rim Square</p>
+                                <h5 class="mb-2" id="price8"><b>₹ 7500</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart8()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+                </div> 
+            </div>
+    
+            <!-- COPUTER GLASSES -->
+            <div class="func-1 tab-content" id="div4">
+                <div class="container">
+                    <h1>COMPUTER GLASSES</h1> 
+                    <section>
+             
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/blue-block-phone-&-computer-glasses_-light-blue-transparent-full-rim-round-lenskart-blu-lb-e14061-c1_lenskart-blu-lb-e14061-c1-eyeglasses_lenskart-blu-lb-e14061-c1-eyeglasses_eyegla.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title9"><a>Lenskart Blu</a></h3>
+                                <p class="card-text" id="text9"> Light Blue Transparent Full Rim Round</p>
+                                <h5 class="mb-2" id="price9"><b>₹ 3000</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart9()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/lenskart-blu-lb-e14283-c1---eyeglasses_g_020601_03_2022.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title10"><a>Lenskart Blu</a></h3>
+                                <p class="card-text" id="text10">Maroon Full Rim Rectangle</p>
+                                <h5 class="mb-2" id="price10"><b>₹ 3500</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart10()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/blue-block-screen-glasses_-black-multicolour-full-rim-wayfarer-lenskart-blu-lb-e16409-c2_g_4189_21_09_2023.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title11"><a>Lenskart Blu</a></h3>
+                                <p class="card-text" id="text11">Black Multicolour Full Rim Wayfarer</p>
+                                <h5 class="mb-2" id="price11"><b>₹ 6500</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart11()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/lenskart-blu-lb-e14791-c1-eyeglasses_g_9837_12_09_2022.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title12"><a>Lenskart Blu </a></h3>
+                                <p class="card-text" id="text12">Black Full Rim Cat Eye</p>
+                                <h5 class="mb-2" id="price12"><b>₹ 5000</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart12()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/blue-block-phone---computer-glasses_-blue-full-rim-aviator-lenskart-blu-lb-e16048-c1_g_8992_10_16_23.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title13"><a>Lenskart Blu</a></h3>
+                                <p class="card-text" id="text13"> Blue Full Rim Aviator</p>
+                                <h5 class="mb-2" id="price13"><b>₹ 6000</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart13()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card" style="width: 22rem;">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="Images/blue-block-phone-&-computer-glasses_-blue-full-rim-round-lenskart-blu-lb-e13528-c4_vincent-chase-vc-e13528-c4-eyeglasses_g_7068_222_02_2022.jpg" class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled list-inline mb-0">
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"> </i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0">
+                                    <i class="fa fa-star text-warning fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <i class="fa fa-star text-secondary fa-xs"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                    <p class="text-muted">4 Star (413)</p>
+                                    </li>
+                                </ul>
+                                <h3 class="card-title font-weight-bold" id="title14"><a>Lenskart Blu</a></h3>
+                                <p class="card-text" id="text14">Blue Full Rim Round</p>
+                                <h5 class="mb-2" id="price14"><b>₹ 4000</b></h5>
+                                <br>
+                                <!-- <hr class="my-4" /> -->
+                                <div class="div1">
+                                    <button onclick="cart14()" style="border: 0px;"><a href="#" class="btn">Add to Cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+                </div>
+            </div>
+
+            <!-- Cart -->
+            <div class="func-1 tab-content" id="div6">
+                <table border="" id="table" >
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tbody></tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><button class="sub" onclick="submit()">Submit</button></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                
+            </div>
+
+        </div>
+
+        
+    
+    </body>
+</html>

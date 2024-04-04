@@ -1,0 +1,192 @@
+/* Navbar */
+.navbar-brand{
+    margin-inline: 2em;
+}
+
+
+/* Home */
+.img1{
+    width: 100%;
+    height: 40em;
+    position: absolute;
+}
+
+.div3{
+    position: relative;
+    padding: 4em;  
+    margin-bottom: 24em;
+    color: rgb(19, 1, 35);
+}
+
+.div3 h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 50;
+    font-style: oblique;
+}
+
+.div3 h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+}
+
+.div3 h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Glasses */
+.div4{
+    margin-block: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    text-align: center;
+    padding: 2em;
+    padding-top: 4em;
+    border: none;
+    margin-block: 2em;
+    border-radius: 0%;
+    
+}
+
+.card-body{
+    margin-top: 2em;
+}
+
+.card-img-top{
+    height: 15em;
+}
+
+.card p{
+    font-size: larger;
+    padding-block: 1em;
+}
+
+.btn{
+    background-color: rgb(19, 1, 35);
+    color: white;
+    border-radius: 0%;
+}
+
+
+/* Facilities */
+.div5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.card{
+    border-radius: 10px;
+    margin-block: 3em;
+    border: none;
+    text-align: center;
+}
+
+.card-title{
+    color: rgb(19, 1, 35);
+    text-align: center;
+}
+
+.card-text{
+    color: rgb(19, 1, 35);
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card_icon img{
+    width: 6em;
+}
+
+
+/* Hot Deals */
+#deals{
+    margin-block: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/* About us */
+.txt1{
+    color: rgb(19, 1, 35);
+}
+
+.card-title1{
+    color: rgb(19, 1, 35);
+    font-size: 3em;
+}
+
+.card-body1{
+    margin-top: 6em;
+}
+
+#img4{
+    margin-top: 3em;
+}
+
+
+/* Contact us */
+.div6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(19, 1, 35);
+    color: white;  
+}
+
+.div6 .card{
+    background-color: rgb(19, 1, 35);
+    color: white;
+}
+
+.div6 .card-title{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5em;
+    margin: 0.5em;
+    padding: 0%;
+}
+
+.div6 .card-text{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: -4em;
+}
+
+.div6 .card_icon{
+    margin-bottom: -2em;
+    margin-top: -4em;
+}
+
+.div6 .card_icon img{
+    width: 2em;
+    margin: 0%;
+}
+
+.div7{
+    text-align: center;
+    color: white;
+    background-color: rgb(19, 1, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.div8{
+    color: white;
+    background-color: rgb(19, 1, 35);
+    text-align: center;
+    font-size: smaller;
+}
+
+

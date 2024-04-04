@@ -1,0 +1,14 @@
+table{
+    border: 0;
+    font-size: x-large;
+    margin: auto;
+    margin-block: 2em;
+}
+
+th{
+    color: white;
+    background-color: black;
+    padding-block: 0.5em;
+    padding-inline: 4em;
+
+}

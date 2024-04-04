@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+/* Navigation Bar */
+nav{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    background: rgb(19, 1, 35);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .div5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 90%;
+    background: rgb(19, 1, 35);
+    margin: auto;
+}
+
+nav .div5 .nav_bar1 a{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav .div5 .nav-links{
+    display: flex;
+}
+
+.div5 .nav-links li{
+    list-style: none;
+    margin: 0 2em;
+    margin-top: 1em;
+}
+
+.div5 .nav-links li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+
+/* Main */
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1{
+    color: rgb(19, 1, 35);
+    text-align: center;
+    margin-top: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card{
+    background-color: rgba(247, 229, 236, 0.521);
+    color: rgb(19, 1, 35);
+    margin-block: 2em;
+    box-shadow: 0em 0em 1em rgb(19, 1, 35);
+}
+
+.card-body{
+    border: solid rgb(19, 1, 35) 2px ;
+}
+
+.div1{
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(19, 1, 35);
+    color: white;
+    border-radius: 0%;
+    border: 0%;
+}
+
+
+
+.card-body a{
+    margin: auto;
+    text-align: center;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active-tab {
+    display: block;
+} 
+  
+/* Cart */
+table{
+    border: 0;
+    text-align: center;
+    font-size: larger;
+    margin: auto;
+    margin-block: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+th{
+    color: white;
+    background-color: black;
+    padding-block: 0.5em;
+    padding-inline: 4em;
+
+}
+  
+tbody{
+    color: rgb(19, 1, 35);
+    padding-block: 0.5em;
+    padding-inline: 4em;
+
+}
+
+.sub{
+    margin: auto;
+	border: 1px solid rgb(19, 1, 35);
+	background-color: black;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    text-align: center;
+}
+
+  
